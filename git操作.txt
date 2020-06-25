@@ -1,0 +1,8 @@
+git add README.md
+git commit -m "first commit"
+# remote 远程 下面这句只需要执行一次
+git remote add origin https://github.com/heynenei/Kaggle-Global-Wheat-Detection.git
+git push -u origin master
+
+# 先执行git add . 再执行下面这句把不需要同步的文件夹删除
+git rm -r --cached .git/
